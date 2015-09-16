@@ -12,7 +12,7 @@
     </div>
     <!-- Get outta here Mike Hu...LOLOLOL -->
     <!-- If you're not him, still get outta here. Who do you think you are looking at an openly accessible webpage source code? Are you a hacker? A 1337 h4x0r? http://i.imgur.com/f7rJAZ7.gif -->
-    <map name="image-maps-2015-09-15-225218" id="ImageMapsCom-image-maps-2015-09-15-225218">
+    <map name="image-maps-2015-09-15-225218" id="newsletterMap">
       <area  id="manthony" alt="" title="Manthony" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" shape="rect" coords="293,184,403,319" style="outline:none;" target="_self"/>
       <area  alt="" title="Chau Chau" href="http://imgur.com/OEM3Nko" shape="rect" coords="653,352,776,508" style="outline:none;" target="_self"/>
       <area  alt="" title="Borderline disturbing.....the GIF, not Kristine lol" href="https://lh3.googleusercontent.com/-QKdnHA4uXF4/TuEalQQqKzI/AAAAAAABDIM/BuvUZ-nrEhs/w506-h379/Pole%2BDancing%2BBunny%2Bresized%2Bfrom%2Bs1203h%2Bon%2Btumbler.gif" shape="rect" coords="517,442,644,603" style="outline:none;" target="_self"/>
@@ -35,9 +35,14 @@
   <script>
     // Fine, you want a special Easter egg? Here you go: https://youtu.be/dQw4w9WgXcQ
     function rickRoll(evt) {
-      alert("Fool me once, shame on you. Fool me twice...shame on me?");
+      if (evt.target.id == "manthony") {
+        alert("Fool me once, shame on you. Fool me twice...shame on me?");
+      }
+      else {
+        console.log("Click on Anthony pls...");  // lol wut
+      }
     }
-    var manthonyMap = document.getElementById('manthony');
-    manthonyMap.addEventListener("clicked", rickRoll, false);
+    var newsletterMap = document.getElementById('newsletterMap');
+    newsletterMap.addEventListener("clicked", rickRoll, false);
   </script>
 </html>
