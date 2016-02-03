@@ -48,27 +48,33 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>VSA Newsletter</title>
-  <head>
+  </head>
+  <style>
+    body {
+      cursor: url("http://www.vsa.neu.edu/wp-content/uploads/2015/05/cute-pho_cursor.png");
+    }
+    a:hover {
+      cursor: default;
+    }
+  </style>
   <body>
     <!-- Matt was here LOL -->
     <!-- ...mmmm check out dat source -->
     <div>
-        <img id="newsletter" src="images/winterNewsletter2.jpg" border="0" width="800" height="5000" orgWidth="800" orgHeight="5000" usemap="#image-maps-2016-01-19-003039" alt="" />
+      <img id="newsletter" src="images/winterNewsletter3.jpg" border="0" width="800" height="4406" orgWidth="800" orgHeight="4406" usemap="#image-maps-2016-01-26-225645" alt=""/>
     </div>
-    <map name="image-maps-2016-01-19-003039" id="newsletterMap">
-        <area alt="" title="Word of the Week" href="http://www.vsa.neu.edu#cboxdiv" shape="rect" coords="0,2014,800,2397" style="outline:none;" target="_self"/>
-        <area alt="" title="NUVSA Facebook" href="https://www.facebook.com/groups/NUVSA/" shape="rect" coords="361,4760,451,4853" style="outline:none;" target="_self"/>
-        <area alt="" title="Send us an email!" href="mailto:thenuvsaeboard@gmail.com" shape="rect" coords="456,4762,546,4855" style="outline:none;" target="_self"/>
-        <area alt="" title="NUVSA Twitter" href="https://twitter.com/nuvsa" shape="rect" coords="551,4759,641,4852" style="outline:none;" target="_self"/>
-        <area alt="" title="NUVSA Website" href="http://www.vsa.neu.edu/" shape="rect" coords="649,4757,739,4850" style="outline:none;" target="_self"/>
-        <area alt="" title="NUVSA Snapchat" href="http://nuvsa.github.io/images/vsaSnapchat.jpg" shape="rect" coords="498,4869,604,4975" style="outline:none;" target="_self"/>
-        <area alt="" title="Anthony Lee?" href="javascript:rickRoll()" shape="poly" coords="298,189,402,189,404,247,387,249,391,293,301,292" style="outline:none;" target="_self"/>
-        <area  alt="" title="NUVSA 6th Annual Culture Show!!" href="https://www.facebook.com/events/417481945128719/" shape="poly" coords="280,2808,412,2790,416,2817,363,2833,370,2856,244,2882,247,2904,78,2941,62,2876,282,2836" style="outline:none;" target="_self"/>
-        <area  alt="" title="" href="javascript:noooo()" shape="poly" coords="452,3856,703,3896,695,3950,446,3915" style="outline:none;" target="_self"/>
-        <area alt="" title="" href="https://www.facebook.com/arianna.marie.583?fref=pb&hc_location=profile_browser" shape="poly" coords="574,4042,684,4059,682,4084,460,4054,460,4080,423,4075,425,4052,574,4065" style="outline:none;" target="_self"/>
-        <area alt="" title="" href="javascript:noooo()" shape="poly" coords="324,4430,380,4421,394,4503,259,4544,270,4566,158,4596,136,4506,326,4458" style="outline:none;" target="_self"/>
-        <area  alt="" title="Show us the money." href="http://img.pandawhale.com/post-39688-show-me-the-money-gif-Imgur-Je-TyRn.gif" shape="poly" coords="56,3182,423,3191,411,3691,49,3676" style="outline:none;" target="_self"/>
-        <area alt="" title="NEWSLETTER CHALLENGE?!?!?!" href="http://www.vsa.neu.edu/is-this-a-newsletter-challenge/" shape="poly" coords="122,356,228,373,211,476,108,460" style="outline:none;" target="_self"/>
+    <map name="image-maps-2016-01-26-225645" id="newsletterMap">
+        <area alt="" title="Word of the Week" href="http://www.vsa.neu.edu#cboxdiv" shape="rect" coords="1,1063,800,1440" style="outline:none;" target="_self"/>
+        <area alt="" title="NUVSA Facebook" href="https://www.facebook.com/groups/NUVSA/" shape="rect" coords="366,4127,455,4218" style="outline:none;" target="_self"/>
+        <area alt="" title="Send us an email!" href="mailto:thenuvsaeboard@gmail.com" shape="rect" coords="461,4129,550,4218" style="outline:none;" target="_self"/>
+        <area alt="" title="NUVSA Twitter" href="https://twitter.com/nuvsa" shape="rect" coords="555,4128,644,4217" style="outline:none;" target="_self"/>
+        <area alt="" title="NUVSA Website" href="http://www.vsa.neu.edu/" shape="rect" coords="652,4125,741,4214" style="outline:none;" target="_self"/>
+        <area alt="" title="NUVSA Snapchat" href="http://nuvsa.github.io/images/vsaSnapchat.jpg" shape="rect" coords="504,4234,608,4341" style="outline:none;" target="_self"/>
+        <area alt="" title="Potato" href="javascript:rickRoll()" shape="poly" coords="299,187,404,187,405,248,386,247,393,293,299,293" style="outline:none;" target="_self"/>
+        <area alt="" title="CULTURE SHOW!!" href="https://www.facebook.com/events/417481945128719/" shape="poly" coords="486,1569,671,1580,656,1844,471,1831" style="outline:none;" target="_self"/>
+        <area alt="" title="CULTURE SHOW!!" href="https://www.facebook.com/events/417481945128719/" shape="poly" coords="158,1884,398,1841,406,1873,315,1893,323,1920,129,1964,122,1930,163,1917" style="outline:none;" target="_self"/>
+        <area alt="" title="VSA GM #2!!" href="https://www.facebook.com/events/487520608101205/" shape="poly" coords="407,2399,705,2462,700,2492,405,2428" style="outline:none;" target="_self"/>
+        <area alt="" title="..." href="http://www.vsa.neu.edu/a-page/" shape="poly" coords="430,116,541,97,558,207,449,225" style="outline:none;" target="_self"/>
     </map>
   </body>
   <script>
