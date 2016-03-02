@@ -53,22 +53,21 @@
   <body>
     <!-- Matt was here LOL -->
     <!-- ...mmmm check out dat source -->
-    <div>
-      <img id="newsletter" src="images/winterNewsletter.jpg" border="0" width="800" height="4343" orgWidth="800" orgHeight="4343" usemap="#image-maps-2016-02-24-040545" alt="" />
+    <div id="newsletter-container">
+      <img id="newsletter" src="images/winterNewsletter.jpg" border="0" width="800" height="4300" orgWidth="800" orgHeight="4300" usemap="#image-maps-2016-03-02-020533" alt="" />
+      <!--<canvas id="centipede-container" width="400" height="1000" style="position:absolute;z-index:1;border:1px solid black;">Your browser does not support the HTML5 canvas tag.</canvas>-->
     </div>
-    <map name="image-maps-2016-02-24-040545" id="newsletterMap">
-      <area  alt="" title="Word of the Week" href="http://www.vsa.neu.edu/#cboxdiv" shape="rect" coords="0,1706,800,1992" style="outline:none;" target="_self"     />
-      <area  alt="" title="" href="https://www.facebook.com/events/970499653019438/" shape="rect" coords="73,3526,130,3557" style="outline:none;" target="_self"     />
-      <area  alt="" title="" href="https://www.facebook.com/events/1555030831474604/" shape="rect" coords="82,3650,139,3681" style="outline:none;" target="_self"     />
-      <area  alt="" title="NUVSA Facebook" href="https://www.facebook.com/groups/NUVSA/" shape="rect" coords="377,4098,465,4189" style="outline:none;" target="_self"     />
-      <area  alt="" title="Send us an email!" href="mailto:thenuvsaeboard@gmail.com" shape="rect" coords="473,4099,561,4190" style="outline:none;" target="_self"     />
-      <area  alt="" title="NUVSA Twitter" href="https://twitter.com/nuvsa" shape="rect" coords="567,4098,655,4189" style="outline:none;" target="_self"     />
-      <area  alt="" title="NUVSA Website" href="http://www.vsa.neu.edu/" shape="rect" coords="663,4096,751,4187" style="outline:none;" target="_self"     />
-      <area  alt="" title="NUVSA Snapchat" href="http://nuvsa.github.io/images/vsaSnapchat.jpg" shape="rect" coords="512,4206,621,4314" style="outline:none;" target="_self"     />
-      <area shape="rect" coords="798,4341,800,4343" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" />
-      <area  alt="" title="" href="javascript:rickRoll()" shape="poly" coords="309,189,412,187,413,250,396,247,401,292,312,291" style="outline:none;" target="_self"     />
-      <area  alt="" title="VSA Spring GM #4" href="https://www.facebook.com/events/164221313959425/" shape="poly" coords="108,2334,375,2293,381,2328,130,2374,133,2404,49,2423,44,2389,112,2368" style="outline:none;" target="_self"     />
-      <area  alt="" title="Celebr(Asian) 2016!!" href="https://www.facebook.com/events/908648615920253/" shape="poly" coords="707,2799,736,2799,739,2834,767,2837,769,2865,444,2860,447,2832,710,2824" style="outline:none;" target="_self"     />
+    <map name="image-maps-2016-03-02-020533" id="newsletterMap">
+      <area  alt="" title="Word of the Week" href="http://www.vsa.neu.edu/#cboxdiv" shape="rect" coords="0,2198,800,2528" style="outline:none;" target="_self"     />
+      <area  alt="" title="NUVSA Facebook" href="https://www.facebook.com/groups/NUVSA/" shape="rect" coords="363,4017,453,4107" style="outline:none;" target="_self"     />
+      <area  alt="" title="Send us an email!" href="mailto:thenuvsaeboard@gmail.com" shape="rect" coords="460,4018,550,4108" style="outline:none;" target="_self"     />
+      <area  alt="" title="NUVSA Twitter" href="https://twitter.com/nuvsa" shape="rect" coords="555,4016,645,4106" style="outline:none;" target="_self"     />
+      <area  alt="" title="NUVSA Website" href="http://www.vsa.neu.edu/" shape="rect" coords="650,4015,740,4105" style="outline:none;" target="_self"     />
+      <area  alt="" title="NUVSA Snapchat" href="http://nuvsa.github.io/images/vsaSnapchat.jpg" shape="rect" coords="502,4125,609,4233" style="outline:none;" target="_self"     />
+      <area  alt="" title="Anthony?" href="javascript:rickRoll()" shape="poly" coords="309,186,416,186,414,249,396,246,401,293,310,291" style="outline:none;" target="_self"     />
+      <area  alt="" title="E-board position descriptions" href="https://docs.google.com/document/d/1im4izdFArY043MMbZa3t-xw52_S5wt0FJk2awIQLQTA/edit" shape="poly" coords="256,2921,346,2909,350,2931,260,2945" style="outline:none;" target="_self"     />
+      <area  alt="" title="E-board nomination form" href="https://docs.google.com/forms/d/1yHkP0x6JV67XWpyMoQgdhelwzNaKybE3-kenvPcL6k8/viewform" shape="poly" coords="332,2949,373,2943,380,2971,336,2978" style="outline:none;" target="_self"     />
+      <area  alt="" title="VSA Dance Practice!!" href="https://www.facebook.com/events/1094623953935809/" shape="poly" coords="411,3771,682,3814,665,3890,398,3847" style="outline:none;" target="_self"     />
     </map>
   </body>
   <script>
@@ -116,5 +115,21 @@
         window.location.href = "https://www.facebook.com/events/397861557071592/";
       }
     }
+
+    /*centipedeMain();
+
+    function centipedeMain() {
+      var container = document.getElementById("centipede-container");
+      var ctx = container.getContext("2d");
+      ctx.fillStyle = "red";
+      ctx.fillRect(0, 0, 20, 20);
+      ctx.stroke();
+    }
+
+    function animate(square, canvas, context, startTime) {
+      var time = (new Date()).getTime() - startTime;
+      var speed = 2;
+      var newX = speed * time / 1000;
+    }*/
   </script>
 </html>
