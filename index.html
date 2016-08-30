@@ -1,4 +1,3 @@
-
 <!--
 /$$    /$$  /$$$$$$   /$$$$$$
 | $$   | $$ /$$__  $$ /$$__  $$
@@ -51,13 +50,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <title>VSA Newsletter</title>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-83368830-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 
 <body>
     <!-- Matt was here LOL -->
     <!-- ...mmmm check out dat source -->
     <div id="newsletter-container">
-        <img id="newsletter" src="images/newsletterImage.jpg" border="0" width="810" height="2659" orgWidth="810" orgHeight="2659" usemap="#map" alt=""/>
+        <img id="newsletter" src="images/newsletterImage.jpg" border="0" width="810" height="2659" orgWidth="810" orgHeight="2659" usemap="#map" alt="" />
     </div>
     <map name="map" id="newsletterMap">
         <area  alt="" title="" href="https://www.facebook.com/events/619600174863923/" shape="rect" coords="408,816,633,862" style="outline:none;" target="_self"/>
@@ -71,66 +86,48 @@
     </map>
 </body>
 <script>
-// You even want to look at the Javascript? Fine, have a special Easter egg: https://goo.gl/cchu7
+    // You even want to look at the Javascript? Fine, have a special Easter egg: https://goo.gl/cchu7
 
-/*
-* rickRoll()
-* This function alerts the user that they have once again been fooled by a "Rick Roll" and
-* then redirects the page to the YouTube video of Rick Astley's "Never Gonna Give You Up".
-
-function noooo() {
-*/
-function rickRoll() {
-    alert("Honestly, how many times are you gonna fall for this?.");
-    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be";
-}
-
-function noooo() {
-    alert("Noooooo. I can't link to two different events :(");
-}
-
-/*
-* annvieAlert()
-* I like this function. I'll retire it, but still keep it here.
-*/
-function annvieAlert() {
-    if (confirm("Warning: If you suffer from any sort of epilepsy, do NOT continue to the next page. Click 'Ok' to continue and 'Cancel' to exit out.")) {
-        window.location.href = "http://24.media.tumblr.com/f63fb06acf51b173993e2a1a8dfa490a/tumblr_mf08j4SPYE1rik3jio1_500.gif";
-    } else {
-        console.log("Did not continue on.");
+    /*
+     * rickRoll()
+     * This function alerts the user that they have once again been fooled by a "Rick Roll" and
+     * then redirects the page to the YouTube video of Rick Astley's "Never Gonna Give You Up".
+     */
+    function rickRoll() {
+        alert("Honestly, how many times are you gonna fall for this?.");
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be";
     }
-}
 
-/* choosePractice()
-* [Retired function]
-* Shows an alert box to prompt user to go to either the Friday Dance Practice event page or the Saturday Dance Practice event page on Facebook.
-* Yes, I know it only gives either an "Ok" and "Cancel" option instead of something like "Friday" and "Saturday". Idk how to make it like that
-* and am too tired to try and figure something out (meaning Google it LOL). Zzzzzzz
-*/
-function choosePractice() {
-    // Separate links on the newsletter would've been better lol
-    if (confirm("Click 'Ok' to go to the Friday Dance Practice event page and 'Cancel' to go to the Saturday one.")) {
-        window.location.href = "https://www.facebook.com/events/527814987381700/";
-    } else {
-        window.location.href = "https://www.facebook.com/events/397861557071592/";
+    function noooo() {
+        alert("Noooooo. I can't link to two different events :(");
     }
-}
 
-/*centipedeMain();
+    /*
+     * annvieAlert()
+     * I like this function. I'll retire it, but still keep it here.
+     */
+    function annvieAlert() {
+        if (confirm("Warning: If you suffer from any sort of epilepsy, do NOT continue to the next page. Click 'Ok' to continue and 'Cancel' to exit out.")) {
+            window.location.href = "http://24.media.tumblr.com/f63fb06acf51b173993e2a1a8dfa490a/tumblr_mf08j4SPYE1rik3jio1_500.gif";
+        } else {
+            console.log("Did not continue on.");
+        }
+    }
 
-function centipedeMain() {
-var container = document.getElementById("centipede-container");
-var ctx = container.getContext("2d");
-ctx.fillStyle = "red";
-ctx.fillRect(0, 0, 20, 20);
-ctx.stroke();
-}
-
-function animate(square, canvas, context, startTime) {
-var time = (new Date()).getTime() - startTime;
-var speed = 2;
-var newX = speed * time / 1000;
-}*/
+    /* choosePractice()
+     * [Retired function]
+     * Shows an alert box to prompt user to go to either the Friday Dance Practice event page or the Saturday Dance Practice event page on Facebook.
+     * Yes, I know it only gives either an "Ok" and "Cancel" option instead of something like "Friday" and "Saturday". Idk how to make it like that
+     * and am too tired to try and figure something out (meaning Google it LOL). Zzzzzzz
+     */
+    function choosePractice() {
+        // Separate links on the newsletter would've been better lol
+        if (confirm("Click 'Ok' to go to the Friday Dance Practice event page and 'Cancel' to go to the Saturday one.")) {
+            window.location.href = "https://www.facebook.com/events/527814987381700/";
+        } else {
+            window.location.href = "https://www.facebook.com/events/397861557071592/";
+        }
+    }
 </script>
 
 </html>
